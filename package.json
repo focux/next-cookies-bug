@@ -6,9 +6,13 @@
     "start": "next start"
   },
   "dependencies": {
+    "@urql/exchange-auth": "^2.1.2",
+    "@urql/exchange-graphcache": "^6.0.4",
+    "graphql": "^16.6.0",
     "next": "canary",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "urql": "^4.0.2"
   },
   "devDependencies": {
     "@types/node": "^18.11.13",

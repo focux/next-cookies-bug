@@ -1,0 +1,4 @@
+export default function (req, res) {
+  res.status(200).json({ accessToken: "test-token" });
+  return;
+}
